@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-jun-2014, 17:33:58
+    Author     : Jose
+*/
+
+.cmxform fieldset p.error label { color: red; }
+div.container {
+	background-color: #eee;
+	border: 1px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+div.container ol li {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+div.container { display: none }
+.container label.error {
+	display: inline;
+}
+form.cmxform { width: 30em; }
+form.cmxform label.error {
+	display: block;
+	margin-left: 1em;
+	width: auto;
+}
